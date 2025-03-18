@@ -10,8 +10,8 @@ Este repositório contém os conteúdos de diversos cursos e bootcamps que fiz a
 
 ### 🎯 Cursos e Bootcamps:
 
-1. **Bootcamp Lógica de Programação com JavaScript - DIO & GFT** - <span style="color: green;">**Concluído**</span>
-2. **Formação JavaScript Developer - DIO** - <span style="color: yellow;">**Cursando**</span>
-3. **Formação Node.js Fundamentals - DIO** - <span style="color: red;">**Pausado**</span>
+1. **Bootcamp Lógica de Programação com JavaScript - DIO & GFT** - **Concluído** ✅
+2. **Formação JavaScript Developer - DIO** - **Cursando** 🔄
+3. **Formação Node.js Fundamentals - DIO** - **Pausado** ⏸️
 
 ---
