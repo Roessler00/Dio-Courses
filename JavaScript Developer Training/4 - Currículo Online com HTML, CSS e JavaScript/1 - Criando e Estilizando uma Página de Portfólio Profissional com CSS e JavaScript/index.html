@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio João Roessler</title>
+
+    <!-- Normalize CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fonte Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Arquivos CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css" />
+    <link rel="stylesheet" href="/assets/css/header.css" />
+    <link rel="stylesheet" href="/assets/css/acordeon.css" />
+    <link rel="stylesheet" href="/assets/css/languages.css" />
+    <link rel="stylesheet" href="/assets/css/portfolio.css" />
+    <link rel="stylesheet" href="/assets/css/experience.css" />
+    <link rel="stylesheet" href="/assets/css/skills.css">
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <img
+          src="assets/img/Eu1.jpg"
+          alt="Foto de João Roessler"
+          class="photo"
+        />
+
+        <h1 class="title">Olá, <br />eu sou o João Roessler</h1>
+
+        <div class="information">
+          <p class="job">
+            <a href="https://www.linkedin.com/in/joaoroessler/" target="_blank"
+              >Junior Developer</a
+            >
+          </p>
+          <p class="location">Curitiba - BR</p>
+          <p class="phone">
+            <a href="tel:+5541995272277">(41) 99527-2277</a>
+          </p>
+          <p class="email">
+            <a href="mailto:joaoroessler2@gmail.com">joaoroessler2@gmail.com</a>
+          </p>
+        </div>
+      </header>
+
+      <section class="acordeon open">
+        <button class="trigger" type="button">Skills</button>
+
+        <div class="content">
+          <div class="skills">
+            <section class="tools">
+              <h3>Hard Skills:</h3>
+              <ul>
+                <li>
+                  <img src="/assets/img/icons/tools/html.svg" alt="HTML" title="HTML">
+                  <img src="/assets/img/icons/tools/css.svg" alt="CSS" title="CSS">
+                  <img src="/assets/img/icons/tools/git.svg" alt="Git" title="Git">
+                  <img src="/assets/img/icons/tools/javascript.svg" alt="JavaScript" title="JavaScript">
+                  <img src="/assets/img/icons/tools/nodejs.svg" alt="NodeJS" title="NodeJS">
+                  <img src="/assets/img/icons/tools/python.svg" alt="Python" title="Python">
+                </li>
+              </ul>
+            </section>
+  
+            <section class="personal">
+              <h3>Soft Skills:</h3>
+              <ul>
+                <li>Trabalho em equipe</li>
+                <li>Resolução de problemas</li>
+                <li> Gestão do tempo</li>
+                <li>Adaptabilidade</li>
+                <li>Aprendizagem contínua</li>
+              </ul>
+            </section>
+          </div>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button">Idiomas</button>
+
+        <div class="content">
+          <ul class="languages">
+            <li>Português (BR)</li>
+            <li>Inglês</li>
+            <li>Espanhol</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button">Portfólio</button>
+
+        <div class="content">
+          <ul class="portfolio">
+            <li>
+              <span class="title github">Pokedex com PokeAPI</span>
+              <a
+                href="https://github.com/Roessler00/Dio-Courses/tree/2cd943ee9ea6f34ae178d4373521de2a58bf0cda/JavaScript%20Developer%20Training/JavaScript%20para%20Web%20-%20HTML%2C%20CSS%20e%20APIs/Dominando%20o%20Protocolo%20HTTP%20e%20Integrando%20com%20a%20PokeAPI"
+                target="_blank"
+                >https://www.github.com/Roessler00</a
+              >
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="acordeon">
+        <button class="trigger" type="button">Experiência Profissional</button>
+
+        <div class="content">
+          <ul class="experience">
+            <li class="job">
+              <h3 class="title">Técnico de Serviços Pleno / TK Elevator</h3>
+              <p class="period">Out 2024 - Current</p>
+              <p>
+                <ul class="description">
+                  <li>Monitoramento de indicadores de desempenho para identificar padrões e otimizar processos.</li>
+                  <li>Registro e análise de dados técnicos para antecipar necessidades de manutenção e propor melhorias.</li>
+                  <li>Atendimento a chamados técnicos, priorizando demandas com base em critérios técnicos e de urgência.</li>
+                </ul>
+              </p>
+            </li>
+            <li>
+              <h3 class="title">Técnico de Qualidade e Segurança do Produto / Elevadores Atlas Schindler</h3>
+              <p class="period">Jul 2023 - Set 2024</p>
+              <p>
+                <ul class="description">
+                  <li>Monitoramento e análise de indicadores de qualidade e segurança dos equipamentos, garantindo conformidade com os
+                    padrões estabelecidos.</li>
+                  <li>Coleta e registro de dados técnicos durante inspeções, auxiliando na identificação de padrões e melhorias nos
+                    processos.</li>
+                  <li>Acompanhamento e suporte em auditorias e inspeções de qualidade, assegurando conformidade com normas de
+                    segurança.</li>
+                </ul>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="/assets/js/acordeon.js"></script>
+  </body>
+</html>

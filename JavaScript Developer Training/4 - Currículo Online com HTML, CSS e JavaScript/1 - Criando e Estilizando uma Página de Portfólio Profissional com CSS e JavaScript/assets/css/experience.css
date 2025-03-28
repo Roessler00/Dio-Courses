@@ -1,0 +1,46 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.experience .job {
+  margin-bottom: 1rem;
+}
+
+.experience li .period {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.experience li .period::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/calendar.svg);
+  margin-right: 0.5rem;
+}
+
+.experience .description li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.experience .description li::before {
+  content: "";
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(/assets/img/icons/check.svg);
+  margin-right: 0.5rem;
+}
