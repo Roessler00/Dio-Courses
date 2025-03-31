@@ -6,7 +6,7 @@ Bem-vindo ao repositório que centraliza todos os cursos e bootcamps realizados 
 
 ## 📌 Sobre os Cursos e Bootcamps
 
-Este repositório contém os conteúdos de diversos cursos e bootcamps que fiz até agora, com foco em desenvolvimento **JavaScript**, **Node.js** e **Lógica de Programação**.
+Este repositório contém os conteúdos de diversos cursos e bootcamps que fiz até agora, com foco em desenvolvimento **Lógica de Programação**, **JavaScript**, **TypeScript** , **Node.js**, **React**, ...
 
 ### 🎯 Cursos e Bootcamps:
 
@@ -14,5 +14,6 @@ Este repositório contém os conteúdos de diversos cursos e bootcamps que fiz a
 2. Formação JavaScript Developer - DIO - **Concluído** ✅
 3. Introdução ao Node.js com Express - DIO - **Concluído** ✅
 4. Formação Node.js Fundamentals - DIO - **Cursando** 📝
+5. Formação TypeScript Fullstack Developer - DIO - **Cursando** 📝
 
 ---
